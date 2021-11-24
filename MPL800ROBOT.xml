@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/09/20||10:23:36" using="Simscape Multibody Link Version 7.2" from="SolidWorks 28.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="MPL800 ROBOT" uid="MPL800 ROBOT" version="167">
+<AssemblyFile name="MPL800 ROBOT.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="MPL800 L-AXIS-1" uid="MPL800 L-AXIS-1" entityUid="MPL800 L-AXIS*:*Default">
+<Transform>
+<Rotation>0.18615213173749895 0.36025212366838688 0.91409287889251289 0.98252093303378785 -0.068254729776352357 -0.1731874938139942 -5.8763631825506432e-16 0.93035460941276271 -0.36666101612310192</Rotation>
+<Translation>-0.29854629420967865 0.056563709963776132 0.16028641806999708</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 LINK-D-1" uid="MPL800 LINK-D-1" entityUid="MPL800 LINK-D*:*Default">
+<Transform>
+<Rotation>0.18615213173750011 1.4504436196424871e-13 0.98252093303378751 0.98252093303378751 -2.716420130039732e-14 -0.18615213173750011 -3.1092076936647448e-16 1 -1.4756579582741957e-13</Rotation>
+<Translation>0.4503151545849744 -0.085318412220346737 -0.087056738233963066</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 BALANCER-A-1" uid="MPL800 BALANCER-A-1" entityUid="MPL800 BALANCER-A*:*Default">
+<Transform>
+<Rotation>0.18615213173750056 -0.19641717847058981 0.96268773538008512 0.98252093303378751 0.037213941456968505 -0.18239445910348565 0 0.9798139693650475 0.19991144398735705</Rotation>
+<Translation>0.16423978145498949 -0.031117490127712796 0.083522530153025645</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 Wrist-1" uid="MPL800 Wrist-1" entityUid="MPL800 Wrist" rigid="true">
+<Transform>
+<Rotation>0.18615213173750014 -7.5550676825741903e-14 0.9825209330337874 0.98252093303378751 1.4446777107934849e-14 -0.18615213173750011 0 0.99999999999999967 7.6938455606523348e-14</Rotation>
+<Translation>0.035245211449435376 -0.0066776910539275147 -1.0892562728645507</Translation>
+</Transform>
+<Instance name="MPL800 WRIST-1" uid="MPL800 WRIST-1" grounded="true" entityUid="MPL800 WRIST*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 Taxis motor-1" uid="MPL800 Taxis motor-1" entityUid="MPL800 Taxis motor*:*Default">
+<Transform>
+<Rotation>-1 2.5989946022214998e-11 2.8547398503544434e-10 -2.8548838310059097e-10 -0.0005556817928014981 -0.99999984560886068 -2.5831309313794936e-11 -0.99999984560886068 0.0005556817928014981</Rotation>
+<Translation>-0.10499999999639549 2.0826389401989216 1.9200486901241278</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 WRIST HOSE-1" uid="MPL800 WRIST HOSE-1" entityUid="MPL800 WRIST HOSE*:*Default">
+<Transform>
+<Rotation>0 1 0 0.0005556817823836103 0 0.99999984560886634 0.99999984560886634 0 -0.0005556817823836103</Rotation>
+<Translation>0 6.6072953057050299e-05 -0.0011346048038371054</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="MPL800 LINK-A-1" uid="MPL800 LINK-A-1" entityUid="MPL800 LINK-A*:*Default">
+<Transform>
+<Rotation>0.18615213173749912 0.36025212366850679 0.91409287889246571 0.98252093303378774 -0.068254729776375284 -0.17318749381398532 -4.5447624274856744e-16 0.93035460941271508 -0.36666101612322377</Rotation>
+<Translation>-0.18028713471773217 0.034157882365846826 0.31099966688134395</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 LINK-E-1" uid="MPL800 LINK-E-1" entityUid="MPL800 LINK-E*:*Default">
+<Transform>
+<Rotation>0.18615213173750184 0.70334430132231518 0.68604240222234669 0.98252093303378718 -0.13325827128415021 -0.12998018804716382 0 0.69824711022086172 -0.71585681045039717</Rotation>
+<Translation>-1.0811830838540355 0.20484503595918485 1.1684014355011987</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 LINK-B-1" uid="MPL800 LINK-B-1" entityUid="MPL800 LINK-B*:*Default">
+<Transform>
+<Rotation>0.18615213173749925 0.70334430132234704 0.68604240222231461 0.98252093303378762 -0.13325827128415405 -0.12998018804715619 -4.5259733208454215e-16 0.69824711022082886 -0.71585681045042915</Rotation>
+<Translation>-0.53889378184455738 0.10210085393366192 0.45882388182725564</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 LINK-C-1" uid="MPL800 LINK-C-1" entityUid="MPL800 LINK-C*:*Default">
+<Transform>
+<Rotation>0.18615213173749984 0.36025212366838272 0.91409287889251412 0.98252093303378762 -0.068254729776352552 -0.17318749381399515 1.4155885630163027e-16 0.93035460941276438 -0.3666610161230977</Rotation>
+<Translation>-0.37184776576252249 0.070451683980697427 0.057641239178681448</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 Base-1" uid="MPL800 Base-1" grounded="true" entityUid="MPL800 Base" rigid="true">
+<Transform>
+<Rotation>0 0 1 1 0 0 0 1 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="MPL800 BASE Connections-1" uid="MPL800 BASE Connections-1" entityUid="MPL800 BASE Connections*:*Default">
+<Transform>
+<Rotation>0 1 0 0 0 1 1 0 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 BASE-1" uid="MPL800 BASE-1" grounded="true" entityUid="MPL800 BASE*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="MPL800 BALANCER-B-1" uid="MPL800 BALANCER-B-1" entityUid="MPL800 BALANCER-B*:*Default">
+<Transform>
+<Rotation>0.18615213173749925 -0.19641717847059056 0.96268773538008512 0.98252093303378762 0.03721394145696897 -0.18239445910348417 -6.416452490366935e-16 0.97981396936504717 0.19991144398735788</Rotation>
+<Translation>0.14121296871422967 -0.026754743101469046 0.083109452068096709</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 Saxis-2" uid="MPL800 Saxis-2" entityUid="MPL800 Saxis" rigid="true">
+<Transform>
+<Rotation>0.18615213173750034 0 0.9825209330337874 0.9825209330337874 0 -0.18615213173750034 0 1 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="MPL800 SAXIS HOSE-1" uid="MPL800 SAXIS HOSE-1" grounded="true" entityUid="MPL800 SAXIS HOSE*:*Default">
+<Transform>
+<Rotation>0 0.99999999999999989 0 0 0 1 0.99999999999999989 0 0</Rotation>
+<Translation>0 -0.021999999999999853 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 LUaxis Motor-2" uid="MPL800 LUaxis Motor-2" entityUid="MPL800 LUaxis Motor*:*Default">
+<Transform>
+<Rotation>-0.99999999999999989 0 0 0 1.0000000000000002 4.7184478546569153e-16 0 4.7184478546569143e-16 -1</Rotation>
+<Translation>-0.03799999999999995 0 0.53999999999999959</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 Saxis motor-1" uid="MPL800 Saxis motor-1" entityUid="MPL800 Saxis motor*:*Default">
+<Transform>
+<Rotation>0.17364817766699911 0.98480775301219592 0 0 0 -0.99999999999999989 -0.98480775301219592 0.17364817766699911 0</Rotation>
+<Translation>-0.31140015073349664 0.55649999999999999 -0.054908248371005768</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 LUaxis Motor-1" uid="MPL800 LUaxis Motor-1" entityUid="MPL800 LUaxis Motor*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL800 Saxis-1" uid="MPL800 Saxis-1" grounded="true" entityUid="MPL800 Saxis*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="MPL800 Uaxis-1" uid="MPL800 Uaxis-1" entityUid="MPL800 Uaxis" rigid="true">
+<Transform>
+<Rotation>0.18615213173750089 0.70334430132229753 0.6860424022223649 0.98252093303378729 -0.13325827128414494 -0.12998018804716774 -1.604493497324579e-15 0.69824711022088048 -0.71585681045037897</Rotation>
+<Translation>-0.96775900391243252 0.18335528081849228 0.74895825581737097</Translation>
+</Transform>
+<Instance name="MPL800 U-AXIS-1" uid="MPL800 U-AXIS-1" grounded="true" entityUid="MPL800 U-AXIS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL500 Yaskawa logo-1" uid="MPL500 Yaskawa logo-1" grounded="true" entityUid="MPL500 Yaskawa logo*:*Default">
+<Transform>
+<Rotation>0.024838138189570893 -0.0027706515955244074 0.99968764640812269 0.11086069155619754 0.99383595581347406 0 -0.99352552758293911 0.1108260638209918 0.024992191160200461</Rotation>
+<Translation>0.072948661049602903 2.0573661189655681 1.2720535580161436</Translation>
+</Transform>
+</Instance>
+<Instance name="MPL500 Yaskawa logo-2" uid="MPL500 Yaskawa logo-2" grounded="true" entityUid="MPL500 Yaskawa logo*:*Default">
+<Transform>
+<Rotation>0.024890616958941691 0.002250956772399614 -0.99968764640812291 -0.090066403460650868 0.99593576247048354 -6.5312338870526787e-16 0.99562467835779689 0.090038270896022496 0.024992191160199767</Rotation>
+<Translation>-0.084191530912930565 2.1014212160995625 0.82233876348311052</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="MPL800 T-AXIS-1" uid="MPL800 T-AXIS-1" entityUid="MPL800 T-AXIS*:*Default">
+<Transform>
+<Rotation>0.074955043526703388 8.1496196899788487e-06 0.99718691396522718 0.99718691205695253 6.1790205398780385e-05 -0.074955043888252318 -6.2227239336420243e-05 0.99999999805777695 -3.4952065579019198e-06</Rotation>
+<Translation>0.0070691688051651713 -0.22030771715392566 -1.0892495579307515</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 Base-1</Uid>
+<Uid>MPL800 BASE-1</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 Saxis-2</Uid>
+<Uid>MPL800 Saxis-1</Uid>
+</InstancePath>
+<Position>0 0.33639999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 Saxis-2</Uid>
+<Uid>MPL800 Saxis-1</Uid>
+</InstancePath>
+<Position>0 0.28499999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 Base-1</Uid>
+<Uid>MPL800 BASE-1</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 Saxis-2</Uid>
+<Uid>MPL800 Saxis-1</Uid>
+</InstancePath>
+<Position>0.39607499999999995 0.88 0.27000000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 L-AXIS-1</Uid>
+</InstancePath>
+<Position>-0.17212500000000006 0.88 0.27000000000000018</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 LINK-B-1</Uid>
+</InstancePath>
+<Position>-0.049075000000000021 0.88 0.26999999999999991</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 L-AXIS-1</Uid>
+</InstancePath>
+<Position>-0.17212500000000006 0.88 0.27000000000000018</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 L-AXIS-1</Uid>
+</InstancePath>
+<Position>-0.10950000000000004 0.88 0.27000000000000007</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 LINK-B-1</Uid>
+</InstancePath>
+<Position>-0.052500000000000033 0.88 0.26999999999999991</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 Saxis-2</Uid>
+<Uid>MPL800 Saxis-1</Uid>
+</InstancePath>
+<Position>-0.23999999999999994 0.88 0.26999999999999991</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 L-AXIS-1</Uid>
+</InstancePath>
+<Position>-0.15050000000000002 0.87999999999999989 0.27000000000000007</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 LINK-A-1</Uid>
+</InstancePath>
+<Position>-0.11749999999999999 0.92009164166390023 -0.18824956112220009</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 LINK-B-1</Uid>
+</InstancePath>
+<Position>-0.12250000000000003 0.88 0.26999999999999996</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 LINK-B-1</Uid>
+</InstancePath>
+<Position>-0.028500000000000004 0.92009164166390012 -0.18824956112220015</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 LINK-A-1</Uid>
+</InstancePath>
+<Position>-0.076500000000000012 0.92009164166390023 -0.18824956112220015</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>MPL800 BALANCER-B-1</Uid>
+</InstancePath>
+<Position>0.11516705249999998 0.79580964487969996 0.066746502847519956</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 L-AXIS-1</Uid>
+</InstancePath>
+<Position>0.22375 0.79580964487969974 0.066746502847519984</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 BALANCER-B-1</Uid>
+</InstancePath>
+<Position>0.11299999999999996 0.79580964487969996 0.066746502847519956</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 L-AXIS-1</Uid>
+</InstancePath>
+<Position>0.10750000000000003 0.87999999999999989 0.27000000000000007</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 BALANCER-B-1</Uid>
+</InstancePath>
+<Position>0.15099999999999997 0.90663773073289999 -0.52994834830009996</Position>
+<Axis>0 -0.18261342206819811 0.98318479345469034</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>MPL800 BALANCER-A-1</Uid>
+</InstancePath>
+<Position>0.15100000000000002 0.81620015246710031 -0.043035334454909979</Position>
+<Axis>0 0.18261342206819819 -0.98318479345469045</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 Saxis-2</Uid>
+<Uid>MPL800 Saxis-1</Uid>
+</InstancePath>
+<Position>-0.047499999999999994 0.86950000000000005 -0.32999999999999996</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 BALANCER-A-1</Uid>
+</InstancePath>
+<Position>0.32535000000000008 0.86950000000000049 -0.32999999999999996</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 Saxis-2</Uid>
+<Uid>MPL800 Saxis-1</Uid>
+</InstancePath>
+<Position>0.42399999999999993 0.27500000000000002 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 LINK-C-1</Uid>
+</InstancePath>
+<Position>0.4210000000000001 1.0250646407640001 -0.037499999999999978</Position>
+<Axis>1.0000000000000002 0 -1.0741526532403716e-16</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 Saxis-2</Uid>
+<Uid>MPL800 Saxis-1</Uid>
+</InstancePath>
+<Position>0.49699999999999989 1.0250646407640001 -0.037499999999999985</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 LINK-C-1</Uid>
+</InstancePath>
+<Position>0.37600000000000011 1.0250646407639998 -0.037499999999999922</Position>
+<Axis>1.0000000000000002 0 -1.0741526532403716e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 LINK-C-1</Uid>
+</InstancePath>
+<Position>0.38100000000000012 1.0250646407639998 -0.037499999999999922</Position>
+<Axis>-1.0000000000000002 0 1.0741526532403716e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 LINK-D-1</Uid>
+</InstancePath>
+<Position>0.378 2.1299999999999999 0.27000000000000002</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 LINK-C-1</Uid>
+</InstancePath>
+<Position>0.37600000000000011 2.2750646407639996 -0.037499999999999811</Position>
+<Axis>1.0000000000000002 0 -1.0741526532403716e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 LINK-D-1</Uid>
+</InstancePath>
+<Position>0.30149999999999999 2.2750646407640001 -0.037499999999999978</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 LINK-A-1</Uid>
+</InstancePath>
+<Position>-0.11749999999999999 0.92009164166390023 -0.18824956112220009</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 Uaxis-1</Uid>
+<Uid>MPL800 U-AXIS-1</Uid>
+</InstancePath>
+<Position>-0.12249999999999971 2.1299999999999999 0.26999999999999968</Position>
+<Axis>1 1.0091237921259066e-16 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 LINK-A-1</Uid>
+</InstancePath>
+<Position>-0.076500000000000026 2.1700916416640004 -0.18824956112220037</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 Uaxis-1</Uid>
+<Uid>MPL800 U-AXIS-1</Uid>
+</InstancePath>
+<Position>0.11050000000000021 2.1700916416640004 -0.18824956112220059</Position>
+<Axis>-1 -1.0091237921259066e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 L-AXIS-1</Uid>
+</InstancePath>
+<Position>-0.17765 2.1299999999999999 0.2700000000000003</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 LINK-D-1</Uid>
+</InstancePath>
+<Position>0.21149999999999997 2.1299999999999999 0.27000000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 LINK-D-1</Uid>
+</InstancePath>
+<Position>0.19050000000000003 2.476654608015 0.70980743825229997</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 LINK-E-1</Uid>
+</InstancePath>
+<Position>0.18750000000000003 2.476654608015 1.4053074382519999</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 LINK-D-1</Uid>
+</InstancePath>
+<Position>0.27082499999999998 2.476654608015 0.70980743825230019</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 LINK-E-1</Uid>
+</InstancePath>
+<Position>0.18750000000000008 2.476654608015 0.70980743825230042</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 LINK-E-1</Uid>
+</InstancePath>
+<Position>0.15650000000000003 2.476654608015 1.4113074382520001</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 Wrist-1</Uid>
+<Uid>MPL800 WRIST-1</Uid>
+</InstancePath>
+<Position>0.15349999999999991 2.4766546080149991 2.1098074382519991</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 LINK-E-1</Uid>
+</InstancePath>
+<Position>0.15650000000000006 2.476654608015 2.1098074382520005</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 Wrist-1</Uid>
+<Uid>MPL800 WRIST-1</Uid>
+</InstancePath>
+<Position>0.18839309999999998 2.4766546080149991 2.1098074382519996</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 Uaxis-1</Uid>
+<Uid>MPL800 U-AXIS-1</Uid>
+</InstancePath>
+<Position>-0.11199999999999967 2.1299999999999999 1.6699999999999995</Position>
+<Axis>-1 -1.0091237921259066e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 Wrist-1</Uid>
+<Uid>MPL800 WRIST-1</Uid>
+</InstancePath>
+<Position>-0.18169999999999989 2.1299999999999981 1.6699999999999997</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 Wrist-1</Uid>
+<Uid>MPL800 WRIST-1</Uid>
+</InstancePath>
+<Position>0 1.861411461933999 1.9201492883779996</Position>
+<Axis>0 0.99999984560886701 -0.00055568178130408201</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 T-AXIS-1</Uid>
+</InstancePath>
+<Position>0 1.8281891285769998 1.9201677494259994</Position>
+<Axis>0 0.99999984560886701 -0.00055568178140308474</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 Wrist-1</Uid>
+<Uid>MPL800 WRIST-1</Uid>
+</InstancePath>
+<Position>0 1.8705889605179991 1.9201441886089998</Position>
+<Axis>0 -0.99999984560886701 0.00055568178130408201</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPL800 T-AXIS-1</Uid>
+</InstancePath>
+<Position>0 1.8561391242619996 1.9201522181209991</Position>
+<Axis>0 0.99999984560886701 -0.00055568178140308474</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 L-AXIS-1</Uid>
+</InstancePath>
+<Position>-0.17765 2.1299999999999999 0.2700000000000003</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MPL800 Uaxis-1</Uid>
+<Uid>MPL800 U-AXIS-1</Uid>
+</InstancePath>
+<Position>-0.10849999999999969 2.1299999999999999 0.26999999999999968</Position>
+<Axis>1 1.0091237921259066e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="MPL800 Wrist" uid="MPL800 Wrist" version="156">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MPL800 Wrist.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="MPL800 Base" uid="MPL800 Base" version="157">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MPL800 Base.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="MPL800 Saxis" uid="MPL800 Saxis" version="159">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MPL800 Saxis.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="MPL800 Uaxis" uid="MPL800 Uaxis" version="157">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MPL800 Uaxis.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="MPL500 Yaskawa logo" uid="MPL500 Yaskawa logo*:*Default" version="252">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL500 Yaskawa logo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0012231519603716069</Mass>
+<CenterOfMass>0.21851550556909732 0.11589734084553674 0.00012699956989808251</CenterOfMass>
+<Inertia>8.2593128370558774e-08 2.1863471494859527e-05 2.1946051471108249e-05 -8.9640670192574565e-15 -1.0094992246216963e-13 4.0817599350318828e-08</Inertia>
+</MassProperties>
+<GeometryFile name="MPL500 Yaskawa logo_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 BALANCER-A" uid="MPL800 BALANCER-A*:*Default" version="282">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 BALANCER-A.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.2723601329552148</Mass>
+<CenterOfMass>0.15099225259577748 0.85234907832791051 -0.22748881794372233</CenterOfMass>
+<Inertia>0.29295105675372063 0.29026745236673401 0.13063314856281968 0.031978897843991799 -3.9864767084174709e-06 5.1153531647566902e-06</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 BALANCER-A_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Specular r="0.56999999999999995" g="0.56999999999999995" b="0.56999999999999995" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 BALANCER-B" uid="MPL800 BALANCER-B*:*Default" version="280">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 BALANCER-B.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.6203359735627525</Mass>
+<CenterOfMass>0.15037241014445721 0.82430469167537079 -0.090555735716820532</CenterOfMass>
+<Inertia>0.061776841395081133 0.058675688547496128 0.0042893930820080408 0.010644458707493044 0.00016245221434711837 -3.2382034592642284e-05</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 BALANCER-B_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 BASE Connections" uid="MPL800 BASE Connections*:*Default" version="307">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 BASE Connections.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.42244839946052587</Mass>
+<CenterOfMass>-0.55537528950776838 -0.0047465476590557148 0.15173028250470999</CenterOfMass>
+<Inertia>0.0040168098935571351 0.0022210338408187652 0.0018224410420774847 -0.00016697620876542806 -8.7563916671077622e-06 -1.2392834013740036e-05</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 BASE Connections_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 BASE" uid="MPL800 BASE*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 BASE.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>18.551169025772698</Mass>
+<CenterOfMass>-0.0020845900390916599 0.071961215696882963 -0.062119115911688234</CenterOfMass>
+<Inertia>1.5284257317293446 2.246616099286852 0.94831957970900227 0.19501922172470998 -0.0038210784673274921 -0.0024269962203745579</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 BASE_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Specular r="0.56999999999999995" g="0.56999999999999995" b="0.56999999999999995" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 L-AXIS" uid="MPL800 L-AXIS*:*Default" version="287">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 L-AXIS.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>25.43651947472349</Mass>
+<CenterOfMass>0.021372777214937293 1.3466100972118542 0.30464815104227433</CenterOfMass>
+<Inertia>5.2824108997428931 0.64246825887715464 5.5316463659812332 -0.067524354161755493 0.033951784855845005 0.23056398440807216</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 L-AXIS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Specular r="0.56999999999999995" g="0.56999999999999995" b="0.56999999999999995" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 LINK-A" uid="MPL800 LINK-A*:*Default" version="282">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 LINK-A.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.8939355747553801</Mass>
+<CenterOfMass>-0.095000018804292513 1.549419072767898 -0.31711048240328477</CenterOfMass>
+<Inertia>1.2294222512954467 0.049981011103529753 1.1813270726411624 -0.0025624056464963185 1.7201744260656875e-08 1.8070280914686214e-07</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 LINK-A_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Specular r="0.56999999999999995" g="0.56999999999999995" b="0.56999999999999995" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 LINK-B" uid="MPL800 LINK-B*:*Default" version="281">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 LINK-B.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>77.032373458803434</Mass>
+<CenterOfMass>-0.31615806791846468 0.94483187585953321 -0.38560074489323248</CenterOfMass>
+<Inertia>4.6183151875661403 3.6165834305202162 3.6347899270859552 0.12148677792650996 -0.59889681733036748 0.37120111255027932</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 LINK-B_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Specular r="0.56999999999999995" g="0.56999999999999995" b="0.56999999999999995" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 LINK-C" uid="MPL800 LINK-C*:*Default" version="282">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 LINK-C.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.376666666507</Mass>
+<CenterOfMass>0.40100000013737536 1.6495659396800908 -0.037499999994304312</CenterOfMass>
+<Inertia>0.52697995876380055 0.0015507253854705407 0.52668867236923023 -9.8076815105997795e-11 3.0284325576797505e-13 -7.1501509803909654e-11</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 LINK-C_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Specular r="0.56999999999999995" g="0.56999999999999995" b="0.56999999999999995" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 LINK-D" uid="MPL800 LINK-D*:*Default" version="282">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 LINK-D.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.7121226215384562</Mass>
+<CenterOfMass>0.25251432343489033 2.2815661777181511 0.31384714452116352</CenterOfMass>
+<Inertia>0.31843360933553028 0.2597192426721327 0.077766955140220223 -0.079506731410760437 0.030004238442124825 0.0053014911954597987</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 LINK-D_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Specular r="0.56999999999999995" g="0.56999999999999995" b="0.56999999999999995" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 LINK-E" uid="MPL800 LINK-E*:*Default" version="281">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 LINK-E.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.7635130451262286</Mass>
+<CenterOfMass>0.17200337244251587 2.4771412273537505 1.4083035201442899</CenterOfMass>
+<Inertia>1.0875026880276466 1.0871643948798067 0.0083056545700481415 -7.0415775381590256e-05 -0.0063462050569423924 1.5217882892740966e-06</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 LINK-E_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Specular r="0.56999999999999995" g="0.56999999999999995" b="0.56999999999999995" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 LUaxis Motor" uid="MPL800 LUaxis Motor*:*Default" version="285">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 LUaxis Motor.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>10.028804591769376</Mass>
+<CenterOfMass>-0.60695965295741316 0.87719919190288054 0.26999999942323194</CenterOfMass>
+<Inertia>0.046830266757003934 0.12431683151254119 0.12731663660609957 -2.9160602360134503e-10 -8.8847667450781432e-11 -0.0022763810784557749</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 LUaxis Motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.078431372549019607" g="0.078431372549019607" b="0.078431372549019607" a="1"/>
+<Diffuse r="0.062745098039215685" g="0.062745098039215685" b="0.062745098039215685" a="1"/>
+<Specular r="0.078431372549019607" g="0.078431372549019607" b="0.078431372549019607" a="1"/>
+<Emissive r="0.0078431372549019607" g="0.0078431372549019607" b="0.0078431372549019607" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 SAXIS HOSE" uid="MPL800 SAXIS HOSE*:*Default" version="343">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 SAXIS HOSE.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.6220260637459265</Mass>
+<CenterOfMass>0.1742946030520259 0.0033184059232808888 0.62821154483837682</CenterOfMass>
+<Inertia>0.017259669297250146 0.045407842072107553 0.029286714049723443 0.00025825575315009723 -0.014014425836701663 0.0006225524271530812</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 SAXIS HOSE_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 Saxis motor" uid="MPL800 Saxis motor*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 Saxis motor.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.1113311516272226</Mass>
+<CenterOfMass>-1.6798843989667282e-05 -0.0013349878895984127 -0.13174524206162408</CenterOfMass>
+<Inertia>0.060224573184766442 0.059173065410325049 0.029577295547831037 -0.00083211169267087494 -1.6117988085174212e-05 -0.00015640605996658581</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 Saxis motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.078431372549019607" g="0.078431372549019607" b="0.078431372549019607" a="1"/>
+<Diffuse r="0.062745098039215685" g="0.062745098039215685" b="0.062745098039215685" a="1"/>
+<Specular r="0.078431372549019607" g="0.078431372549019607" b="0.078431372549019607" a="1"/>
+<Emissive r="0.0078431373717738131" g="0.0078431373717738131" b="0.0078431373717738131" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 Saxis" uid="MPL800 Saxis*:*Default" version="309">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 Saxis.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>124.86656643216001</Mass>
+<CenterOfMass>0.001817181942966472 0.58194886837616089 0.10206482875293588</CenterOfMass>
+<Inertia>16.485974861830851 13.119064062355585 18.263318049476172 -3.4413029748623392 0.94969990300164653 -0.11882595829148737</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 Saxis_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Specular r="0.56999999999999995" g="0.56999999999999995" b="0.56999999999999995" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 T-AXIS" uid="MPL800 T-AXIS*:*Default" version="294">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 T-AXIS.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.23344253305206</Mass>
+<CenterOfMass>0.00046607895799867933 1.8470525351685667 1.9210383821732213</CenterOfMass>
+<Inertia>0.0057352577139291169 0.011277890614571446 0.005784897779097178 -3.925500369017099e-06 1.2744149929737274e-05 -7.4714885638126202e-07</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 T-AXIS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.82745098039215681" g="0.66666666666666663" b="0.12941176470588234" a="1"/>
+<Diffuse r="0.82745098039215681" g="0.66666666666666663" b="0.12941176470588234" a="1"/>
+<Specular r="0.66196078431372551" g="0.53333333333333333" b="0.10352941176470587" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 Taxis motor" uid="MPL800 Taxis motor*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 Taxis motor.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.2727537587245319</Mass>
+<CenterOfMass>-3.1497857984168189e-05 -0.0020075383199029502 -0.079178991374127816</CenterOfMass>
+<Inertia>0.0083558912383363531 0.0080662747512923617 0.0047156765145402882 -0.00018004064874492645 -7.4652025476232919e-06 -2.0997804560086563e-06</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 Taxis motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.078431372549019607" g="0.078431372549019607" b="0.078431372549019607" a="1"/>
+<Diffuse r="0.062745098039215685" g="0.062745098039215685" b="0.062745098039215685" a="1"/>
+<Specular r="0.078431372549019607" g="0.078431372549019607" b="0.078431372549019607" a="1"/>
+<Emissive r="0.0078431373717738131" g="0.0078431373717738131" b="0.0078431373717738131" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 U-AXIS" uid="MPL800 U-AXIS*:*Default" version="289">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 U-AXIS.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>18.606900102953809</Mass>
+<CenterOfMass>-0.010935298635700329 2.1952176876311533 0.64954938911672877</CenterOfMass>
+<Inertia>5.4521792810659244 5.4595406594051354 0.18429467710001951 0.21400962142095309 -0.15594007166764981 0.0001969476258308123</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 U-AXIS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Specular r="0.56999999999999995" g="0.56999999999999995" b="0.56999999999999995" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 WRIST HOSE" uid="MPL800 WRIST HOSE*:*Default" version="403">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 WRIST HOSE.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.0451843370598857</Mass>
+<CenterOfMass>1.9468397144683089 0.07169014023180699 2.1507773062378868</CenterOfMass>
+<Inertia>0.033491751671458986 0.046954935716976315 0.02175177282059846 -0.0026490986751407978 -0.0081808621832594706 -0.0040072403255565145</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 WRIST HOSE_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPL800 WRIST" uid="MPL800 WRIST*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPL800 WRIST.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>11.194097577400836</Mass>
+<CenterOfMass>0.029525766064364193 2.0627514059311083 1.9158229102544282</CenterOfMass>
+<Inertia>0.49353918927122375 0.29171779618996785 0.43857923176850733 -0.084119696378246039 -0.026846828348373951 -0.088645553963200494</Inertia>
+</MassProperties>
+<GeometryFile name="MPL800 WRIST_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Specular r="0.56999999999999995" g="0.56999999999999995" b="0.56999999999999995" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
